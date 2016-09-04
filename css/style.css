@@ -1,0 +1,359 @@
+		#navTop ul li a{
+			padding-top: 20px !important;
+			padding-bottom: 20px !important;
+			color:#fff;
+			font-weight: bold;
+		}
+		.dropdown{
+			top:20px;
+		}
+		#navTop .dropdown ul li a{
+			color: #5f4239;
+		}
+		.dropdown-menu{
+			top:38px !important;
+		}
+
+		.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+		    background-color: rgba(238, 238, 238, 0) !important;
+		    border: none !important;
+		}
+
+		.backf{
+			background: url(../images/navbg.png) repeat-x;
+			border: none !important;
+		}
+		.backw{
+			background: url(../images/navbgw.png) repeat-x;
+		}
+		.intro p{
+			color: #5F4239; 
+			font-size: 30px;
+		}
+		figure{
+			cursor: pointer;
+		}
+		figure figcaption{
+			color: #fff;
+			font-family: "微软雅黑";
+			letter-spacing: 1px;
+			position: absolute;
+		}
+		figure figcaption h2{
+			transition: all .35s ease-in;
+		}
+		figure figcaption p{
+			transition: all .35s;
+		}
+
+		figure figcaption div{
+			transition: all .35s;
+		}
+		.content{
+			max-width: 1920px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		
+		.content .tanslateShow{
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+		.content figure{
+			width:32.5%;
+			height:300px;
+			float: left;
+			border: 1px #ddd solid;
+			display: block;
+			padding: 4px;
+			border-radius: 4px;
+			margin: 5px 0.4%;
+			position: relative;
+			overflow: hidden;
+		}
+		.tanslateShow figure figcaption{
+			top: 15%;
+			left: 10px;
+		}
+		.tanslateShow h2{
+			transform: translate(-650px,0px);
+		}
+		.tanslateShow figure.txt1:hover figcaption h2,.tanslateShow figure.txt2:hover figcaption h2,.tanslateShow figure.txt3:hover figcaption h2{
+			transform: translate(0px,0px);
+		}
+		.tanslateShow figure.txt1:hover figcaption p,.tanslateShow figure.txt2:hover figcaption p,.tanslateShow figure.txt3:hover figcaption p{
+			transform: translate(0px,0px);
+		}
+		.tanslateShow figure.txt1:hover div,.tanslateShow figure.txt2:hover div,.tanslateShow figure.txt3:hover div{
+			transform: translate(-2px,0px);
+			opacity: 0.9;
+		}
+		.tanslateShow figcaption p:nth-of-type(1){
+			transition-delay: 0.1s;
+		}
+		.tanslateShow figcaption p:nth-of-type(2){
+			transition-delay: 0.2s;
+		}
+		.tanslateShow p{
+			transform: translate(-650px,0px);
+			background-color: #fff;
+			color: #000;
+			display: inline-block;
+			padding: 5px 10px;
+			font-size: 18px;
+		}
+
+		.tanslateShow p.detail{
+			color: #5F4239;
+			padding: 10px;
+			font-size: 16px;
+		}
+
+		.rotateShow figure figcaption{
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+		.rotateShow figure figcaption h2{
+			margin-top: 20%;
+			margin-left: 15%;
+			opacity: 0;
+		}
+		.rotateShow figure figcaption p{
+			margin-left: 15%;
+			transform: translate(0,50px);
+			opacity: 0;
+		}
+		.rotateShow figure figcaption div.rotateBox{
+			height: 85%;
+			width: 85%;
+			border:2px solid #fff;
+			position: absolute;
+			top:8%;
+			left: 8%;
+			transform: translate(0,-280px) rotate(0deg);
+		}
+		.rotateShow figure.txt1:hover figcaption div.rotateBox,.rotateShow figure.txt2:hover figcaption div.rotateBox,.rotateShow figure.txt3:hover figcaption div.rotateBox{
+			transform: translate(0,0px) rotate(360deg);
+		}
+		.rotateShow figure.txt1:hover > div,.rotateShow figure.txt2:hover > div,.rotateShow figure.txt3:hover > div{
+			opacity: 0.9;
+		}
+		.rotateShow figure.txt1:hover figcaption p,.rotateShow figure.txt2:hover figcaption p,.rotateShow figure.txt3:hover figcaption p{
+			transform: translate(0,0px);
+			opacity: 1;
+		}
+		.rotateShow figure.txt1:hover figcaption h2,.rotateShow figure.txt2:hover figcaption h2,.rotateShow figure.txt3:hover figcaption h2{
+			opacity: 1;
+		}
+
+
+		.scaleShow figure figcaption{
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+		.scaleShow figure figcaption h2{
+			margin-top: 20%;
+			margin-left: 15%;
+			transform: scale(0.8,0.8);
+			opacity: 0;
+		}
+		.scaleShow figure figcaption p{
+			margin-left: 15%;
+			transform: scale(0.8,0.8);
+			opacity: 0;
+		}
+		.scaleShow figure figcaption div.rotateBox{
+			height: 85%;
+			width: 85%;
+			border:2px solid #fff;
+			position: absolute;
+			top:8%;
+			left: 8%;
+			transform: scale(1.2,1.2);
+		}
+		.scaleShow figure.txt1:hover figcaption div.rotateBox,.scaleShow figure.txt2:hover figcaption div.rotateBox,.scaleShow figure.txt3:hover figcaption div.rotateBox{
+			transform: scale(1.1,1.1);
+		}
+		.scaleShow figure.txt1:hover figcaption h2,.scaleShow figure.txt2:hover figcaption h2,.scaleShow figure.txt3:hover figcaption h2{
+			transform: scale(1,1);
+			opacity: 1;
+		}
+		.scaleShow figure.txt1:hover figcaption p,.scaleShow figure.txt2:hover figcaption p,.scaleShow figure.txt3:hover figcaption p{
+			transform: scale(1,1);
+			opacity: 1;
+		}
+		.scaleShow figure.txt1:hover > div,.scaleShow figure.txt2:hover > div,.scaleShow figure.txt3:hover > div{
+			transform: scale(1.1,1.1);
+		}
+		
+		#footer {
+			font-size: 12px;
+			padding: 25px;
+		}
+		#footer .f-logo{
+			padding-left: 100px;
+		}
+		#footer ul{
+			margin:0 !important;
+			padding:0 !important;
+			margin-bottom: 10px !important;
+			overflow: hidden;
+		}
+		#footer ul li{
+			float: left;
+			padding: 0 10px;
+			border-left: 1px #ccc solid;
+			margin-left: -1px;
+		}
+		#footer address{
+			margin:0 !important;
+			padding:0 10px !important;
+		}
+		#footer .copyright{
+			padding: 0 10px;
+			color: #a9a9a9;
+		}
+		.d-none{
+			display: none;
+		}
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+/*媒体查询，参考部分Bootstrap框架*/
+/*当页面大于1200px时*/
+@media (min-width: 1200px) {
+	.container{
+		width:100% !important;
+		padding-left:130px;
+		padding-right: 130px;
+		max-width: 1920px;
+	}
+}
+
+/*在992和1199像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*在768和991像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.container{
+		width: 100% !important;
+	}
+	.nav li a{
+		padding: 10px 8px !important;
+	}
+	.none{
+		display: none!important;
+	}
+	.content figure{
+			width:49% !important;
+	}
+	.tanslateShow p{
+		padding: 3px 8px !important;
+		font-size: 14px !important;
+	}
+
+	.tanslateShow p.detail{
+		padding: 8px !important;
+		font-size: 14px !important;
+	}
+/*	#navTop .navbar-toggle{
+		display: block!important;
+	}
+	#navTop .collapse{
+		display: none!important;
+	}*/
+}
+
+/*在480和767像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 480px) and (max-width: 767px) {
+	.navbar-toggle:hover{
+		background-color: rgba(221, 221, 221, 0) !important;
+	}
+	.content figure{
+			width:99% !important;
+	}
+	.content figure{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	.intro h2{
+		margin:0 !important;
+	}
+	.intro p{
+		font-size: 24px !important;
+	}
+	.xs-style{
+		display: block;
+		font-size: 26px;
+		font-weight: bold;
+	}
+	#footer address{
+		text-align: center;
+	}
+	#footer p{
+		text-align: center;
+	}
+	#footer .telImg{
+		padding: 10px 0 15px 0;
+	}
+}
+
+/*在小于480像素的屏幕,这里的样式才生效*/
+@media (max-width: 479px) {
+	.navbar-toggle:hover{
+		background-color: rgba(221, 221, 221, 0) !important;
+	}
+	.content figure{
+			width:96.5% !important;
+	}
+	.content figure{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	.intro h2{
+		margin:0 !important;
+	}
+	.intro p{
+		font-size: 24px !important;
+		margin:0 !important;
+	}
+	.xs-style{
+		display: block;
+		font-size: 26px;
+		font-weight: bold;
+	}
+	#footer address{
+		text-align: center;
+	}
+	#footer p{
+		text-align: center;
+	}
+	#footer .telImg{
+		padding: 10px 0 15px 0;
+	}
+} 

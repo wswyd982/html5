@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.container{
+			display:table;
+			height: 100%;
+		}
+		.table-cell{
+			display: table-cell;
+			vertical-align: middle;;
+		}
+
+		.floater{
+			height: 50%;
+			margin-bottom: -100px;
+		}
+		.floater_center{
+			width:200px;
+			height: 200px;
+			margin: auto;
+		}
+		.nn{
+			position: absolute;
+			top:50%;
+			left: 0;
+			right: 0;
+			margin:auto;
+			margin-top: -100px;
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+		.nn1{
+			display: flex;
+			align-items: center;
+		}
+		.floater1{
+			display: block;
+		}
+		.floater1:after{
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+		}
+		.floater_center1{
+			display: inline-block;
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="floater1">
+		<div class="floater_center1">asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</div>
+	</div> -->
+	<!-- <div class="nn">asasdasssssssssss</div> -->
+	<div style="width: 200px; height:200px;display: table;/* height: 100%*/">
+		<div style="display: table-cell;vertical-align: middle;">asdasdasdasdasdasdasd</div>
+	</div>
+	<script>
+		//window.onload = function(){
+			// var s = 9+9+'3';
+			// alert(s);
+		//}
+	</script>
+</body>
+</html>

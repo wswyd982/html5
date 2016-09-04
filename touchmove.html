@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+	*{
+		padding:0;
+		margin:0;
+	}
+	ul{
+		list-style:none;
+	}
+	ul li{
+		float:left;
+	}
+	#bigBox{
+/*		width:300px;
+		height:200px;*/
+		position:relative;
+		border:5px solid #000;
+		overflow:hidden;
+		width: 1903px;
+		height: 1055px;
+	}
+	#smallBox{
+		position:absolute;
+	}
+	</style>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/touchmove.js"></script>
+	<script type="text/javascript">
+	</script>
+</head>
+<body>
+<div id="bigBox">
+	<div id="smallBox" style="width:13321px; left:-1903px;">
+    	<ul class="liwrap">
+        	<li><img src="images/main1.jpg" /></li>
+        	<li><img src="images/main1.jpg" /></li>
+            <li><img src="images/main1.jpg" /></li>
+            <li><img src="images/main1.jpg" /></li>
+            <li><img src="images/main1.jpg" /></li>
+    	</ul>
+    </div>
+</div>
+    <div id="inp" style="width:100px; height:100px; background-color:red; position:absolute;top:500px;"></div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>tanslate3d</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+			position: relative;
+			width: 300px;
+			height: 100px;
+			overflow: hidden;
+		}
+		li{
+			width: 100px;
+			height: 100px;
+			background: red;
+			float: left;
+			color: #000;
+			line-height: 100px;
+			text-align: center;
+		}
+		.bigbox{
+			width: 100px;
+			height: 100px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div class="bigbox">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			//alert();
+			var a=0;
+			var time = window.setInterval(run,3000);
+			function run(){
+				a++;
+				if(a==3){
+					a=0;
+				}
+				var b = -(100*a);
+				$("ul").css("transform",'translate3d('+b+'px,0px,0px)');
+			}
+		})
+	</script>
+</body>
+</html>
